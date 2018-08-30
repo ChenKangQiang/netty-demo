@@ -1,12 +1,8 @@
 package netty.demo.example;
 
-import io.netty.buffer.ByteBuf;
-import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandler.Sharable;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
-import io.netty.util.CharsetUtil;
-import netty.demo.dto.SubscribeRespDTO;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
